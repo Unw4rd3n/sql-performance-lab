@@ -1,12 +1,7 @@
 # Roadmap
 
 ## v0.2
-- Добавить сценарий `join_hot_users`:
-  - before: тяжелый join + фильтр без подходящего индекса.
-  - after: индекс + предфильтрация.
-- Добавить сценарий `offset_pagination`:
-  - before: `OFFSET` на больших страницах.
-  - after: keyset pagination.
+- Добавить сценарий с partial index.
 
 ## v0.3
 - Вынести генерацию markdown-summary из JSON-репорта.

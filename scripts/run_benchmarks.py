@@ -61,6 +61,7 @@ def run_single(cur: psycopg.Cursor, name: str, mode: str, sql_path: Path) -> Ben
         cur.execute(stmt)
 
     # Обновляем статистику перед прогонами, чтобы план был ближе к реальности.
+    cur.execute("ANALYZE users;")
     cur.execute("ANALYZE orders;")
 
     # Warmup выравнивает "первый холодный запуск", чтобы не искажать метрики.
