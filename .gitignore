@@ -3,3 +3,4 @@ __pycache__/
 .pytest_cache/
 .env
 sql_lab/reports/*.json
+sql_lab/reports/*.md
