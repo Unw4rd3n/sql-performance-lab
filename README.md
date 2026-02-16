@@ -39,6 +39,16 @@ make test    # проверить парность сценариев и баз�
 - `sql_lab/reports/high_value_orders.report.md`
 - `sql_lab/reports/summary.md`
 
+<!-- BENCHMARK_SHOWCASE:START -->
+### Live Benchmark Showcase
+
+_Этот блок обновляется автоматически после `make run`._
+
+| Scenario | Avg Before (ms) | Avg After (ms) | Improvement (%) | Report |
+|---|---:|---:|---:|---|
+| _run benchmarks first_ | - | - | - | `sql_lab/reports/*.report.md` |
+<!-- BENCHMARK_SHOWCASE:END -->
+
 Внутри:
 - `before` и `after` с метриками latency.
 - `improvement_percent` с итоговым приростом.
